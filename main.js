@@ -160,3 +160,5 @@ var game = setInterval(function(){
     food.draw();
 },gamespeed);
 
+console.log('test');
+
