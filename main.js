@@ -10,7 +10,6 @@ var box = {
 var gamespeed = 100;
 
 var d;
-var keyPress = false;
 
 window.addEventListener('keypress',function(e){
         if(e.key == 'ArrowUp'  && d!='Down'){
