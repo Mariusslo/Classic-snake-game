@@ -12,13 +12,13 @@ var gamespeed = 100;
 var d;
 
 window.addEventListener('keypress',function(e){
-        if(e.key == 'ArrowUp'  && d!='Down'){
+        if(e.key == 'w'  && d!='Down'){
             d = 'Up';
-        }else if(e.key == 'ArrowRight'  && d!='Left'){
+        }else if(e.key == 'd'  && d!='Left'){
             d = 'Right';
-        }else if(e.key == 'ArrowDown'  && d!='Up'){
+        }else if(e.key == 's'  && d!='Up'){
             d = 'Down';
-        }else if(e.key == 'ArrowLeft'  && d!='Right'){
+        }else if(e.key == 'a'  && d!='Right'){
             d = 'Left';
         }
 })
